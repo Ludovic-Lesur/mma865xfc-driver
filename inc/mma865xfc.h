@@ -11,7 +11,7 @@
 #ifndef MMA865XFC_DRIVER_DISABLE_FLAGS_FILE
 #include "mma865xfc_driver_flags.h"
 #endif
-#include "math.h"
+#include "maths.h"
 #include "types.h"
 
 /*** MMA865XFC structures ***/

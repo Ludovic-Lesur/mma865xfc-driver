@@ -11,7 +11,7 @@
 #include "mma865xfc_driver_flags.h"
 #endif
 #include "error.h"
-#include "math.h"
+#include "maths.h"
 #include "mma865xfc_hw.h"
 #include "types.h"
 

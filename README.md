@@ -13,7 +13,8 @@ Here is the versions compatibility table:
 
 | **mma865xfc-driver** | **embedded-utils** |
 |:---:|:---:|
-| [sw1.0](https://github.com/Ludovic-Lesur/mma865xfc-driver/releases/tag/sw1.0) | >= [sw5.0](https://github.com/Ludovic-Lesur/embedded-utils/releases/tag/sw5.0) |
+| [sw1.1](https://github.com/Ludovic-Lesur/mma865xfc-driver/releases/tag/sw1.1) | >= [sw7.0](https://github.com/Ludovic-Lesur/embedded-utils/releases/tag/sw7.0) |
+| [sw1.0](https://github.com/Ludovic-Lesur/mma865xfc-driver/releases/tag/sw1.0) | [sw5.0](https://github.com/Ludovic-Lesur/embedded-utils/releases/tag/sw5.0) to [sw6.2](https://github.com/Ludovic-Lesur/embedded-utils/releases/tag/sw6.2) |
 
 # Compilation flags
 

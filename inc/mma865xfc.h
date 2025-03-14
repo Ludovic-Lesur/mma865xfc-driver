@@ -11,6 +11,7 @@
 #ifndef MMA865XFC_DRIVER_DISABLE_FLAGS_FILE
 #include "mma865xfc_driver_flags.h"
 #endif
+#include "error.h"
 #include "maths.h"
 #include "types.h"
 
@@ -27,7 +28,7 @@ typedef enum {
     MMA865XFC_ERROR_CONFIGURATION_SIZE,
     MMA865XFC_ERROR_AXIS,
     // Low level drivers errors.
-    MMA865XFC_ERROR_BASE_I2C = 0x0100,
+    MMA865XFC_ERROR_BASE_I2C = ERROR_BASE_STEP,
     MMA865XFC_ERROR_BASE_MATH = (MMA865XFC_ERROR_BASE_I2C + MMA865XFC_DRIVER_I2C_ERROR_BASE_LAST),
     // Last base value.
     MMA865XFC_ERROR_BASE_LAST = (MMA865XFC_ERROR_BASE_MATH + MATH_ERROR_BASE_LAST)

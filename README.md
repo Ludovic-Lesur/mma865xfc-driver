@@ -25,3 +25,20 @@ Here is the versions compatibility table:
 | `MMA865XFC_DRIVER_DISABLE` | `defined` / `undefined` | Disable the MMA865xFC driver. |
 | `MMA865XFC_DRIVER_I2C_ERROR_BASE_LAST` | `<value>` | Last error base of the low level I2C driver. |
 | `MMA865XFC_DRIVER_NUMBER_OF_BITS` | `10` / `12` | Number of bits of the acceleration data (depends on part number, refer to datasheet). |
+
+# Build
+
+A static library can be compiled by command line with `cmake`.
+
+```bash
+mkdir build
+cd build
+cmake -DCMAKE_TOOLCHAIN_FILE="<toolchain_file_path>" \
+      -DTOOLCHAIN_PATH="<arm-none-eabi-gcc_path>" \
+      -DTYPES_PATH="<types_file_path>" \
+      -DEMBEDDED_UTILS_PATH="<embedded-utils_path>" \
+      -DMMA865XFC_DRIVER_I2C_ERROR_BASE_LAST=0 \
+      -DMMA865XFC_DRIVER_NUMBER_OF_BITS=12 \
+      -G "Unix Makefiles" ..
+make all
+```

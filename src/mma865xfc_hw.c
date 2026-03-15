@@ -20,7 +20,7 @@
 /*******************************************************************/
 MMA865XFC_status_t __attribute__((weak)) MMA865XFC_HW_init(void) {
     // Local variables.
-    MMA865XFC_status_t status = MMA865XFC_SUCCESS;
+    MMA865XFC_status_t status = MMA865XFC_ERROR_HW_FUNCTION_NOT_IMPLEMENTED;
     /* To be implemented */
     return status;
 }
@@ -28,7 +28,7 @@ MMA865XFC_status_t __attribute__((weak)) MMA865XFC_HW_init(void) {
 /*******************************************************************/
 MMA865XFC_status_t __attribute__((weak)) MMA865XFC_HW_de_init(void) {
     // Local variables.
-    MMA865XFC_status_t status = MMA865XFC_SUCCESS;
+    MMA865XFC_status_t status = MMA865XFC_ERROR_HW_FUNCTION_NOT_IMPLEMENTED;
     /* To be implemented */
     return status;
 }
@@ -36,7 +36,7 @@ MMA865XFC_status_t __attribute__((weak)) MMA865XFC_HW_de_init(void) {
 /*******************************************************************/
 MMA865XFC_status_t __attribute__((weak)) MMA865XFC_HW_i2c_write(uint8_t i2c_address, uint8_t* data, uint8_t data_size_bytes, uint8_t stop_flag) {
     // Local variables.
-    MMA865XFC_status_t status = MMA865XFC_SUCCESS;
+    MMA865XFC_status_t status = MMA865XFC_ERROR_HW_FUNCTION_NOT_IMPLEMENTED;
     /* To be implemented */
     UNUSED(i2c_address);
     UNUSED(data);
@@ -48,7 +48,7 @@ MMA865XFC_status_t __attribute__((weak)) MMA865XFC_HW_i2c_write(uint8_t i2c_addr
 /*******************************************************************/
 MMA865XFC_status_t __attribute__((weak)) MMA865XFC_HW_i2c_read(uint8_t i2c_address, uint8_t* data, uint8_t data_size_bytes) {
     // Local variables.
-    MMA865XFC_status_t status = MMA865XFC_SUCCESS;
+    MMA865XFC_status_t status = MMA865XFC_ERROR_HW_FUNCTION_NOT_IMPLEMENTED;
     /* To be implemented */
     UNUSED(i2c_address);
     UNUSED(data);
